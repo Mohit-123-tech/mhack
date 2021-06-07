@@ -1,5 +1,9 @@
 
 
+whack.sh for windows 
+
+mhack.sh for mac and linux
+
 ====================commad list=====================
 
 login whith name ; 
