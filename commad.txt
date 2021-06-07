@@ -1,0 +1,13 @@
+
+
+====================commad list=====================
+
+login whith name ; 
+
+table
+exit
+add
+sup
+multi
+div
+sqrt
