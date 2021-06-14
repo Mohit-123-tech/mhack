@@ -1,4 +1,6 @@
 
+import datetime
+import os
 import math
 
 uname = input("name --< ")
@@ -40,10 +42,26 @@ for i in range(1,100000000):
     elif code=='sqrt':
         n1 = int(input("Enter a value --< "))
         print(f"sqrt is --< {math.sqrt(n1)}")
-
-    elif code=='--help':
-        open(help.txt)
+        
+    elif code=='date':
+        dt = datetime.datetime.now()
+        print(date)
     
+    elif code=='clear':
+        os.system("clear")
+        
+    elif code=='c-list':
+        print("==========command list==========")
+        print('date')
+        print('add')
+        print('clear')
+        print('sup')
+        print('multi')
+        print('div')
+        print('c-list')
+        print('sqrt')
+        print('table')
+              
     else :
         print("commad not found !!!")
 
