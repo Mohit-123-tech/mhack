@@ -15,3 +15,7 @@ sup
 multi
 div
 sqrt
+date
+clear
+c-list
+
