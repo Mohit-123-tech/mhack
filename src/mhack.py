@@ -50,6 +50,9 @@ for i in range(1,100000000):
     elif code=='clear':
         os.system("clear")
         
+    elif code=='str-size':
+        name = input()
+        
     elif code=='c-list':
         print("==========command list==========")
         print('date')
