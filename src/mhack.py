@@ -51,7 +51,8 @@ for i in range(1,100000000):
         os.system("clear")
         
     elif code=='str-size':
-        name = input()
+        name = input('text --> ')
+        print(len(name))
         
     elif code=='c-list':
         print("==========command list==========")
@@ -64,9 +65,10 @@ for i in range(1,100000000):
         print('c-list')
         print('sqrt')
         print('table')
+        print('str-size')
               
     else :
-        print("commad not found !!!")
+        print("commad is not working !!!")
 
         
 
