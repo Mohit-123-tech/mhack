@@ -18,4 +18,5 @@ sqrt
 date
 clear
 c-list
+str-size
 
