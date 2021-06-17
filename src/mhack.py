@@ -45,7 +45,7 @@ for i in range(1,100000000):
         
     elif code=='date':
         dt = datetime.datetime.now()
-        print(date)
+        print(dt)
     
     elif code=='clear':
         os.system("clear")
