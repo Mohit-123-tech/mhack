@@ -66,6 +66,10 @@ for i in range(1,100000000):
         print('sqrt')
         print('table')
         print('str-size')
+        print('name')
+        
+    elif code=='name':
+        uname = input('change your name --£ ')
               
     else :
         print("commad is not working !!!")
