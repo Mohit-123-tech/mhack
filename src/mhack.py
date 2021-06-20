@@ -67,6 +67,11 @@ for i in range(1,100000000):
         print('table')
         print('str-size')
         print('name')
+        print('cmatrix')
+        
+    elif code=='cmatrix':
+        os.system('apt-get install cmatrix -y')
+        os.system('cmatrix')
         
     elif code=='name':
         uname = input('change your name --£ ')
