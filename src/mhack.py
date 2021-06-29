@@ -19,25 +19,25 @@ for i in range(1,100000000):
         num1 = int(input("Enter a value --< "))
         num2 = int(input("Enter a value --< "))
         som = num1+num2
-        print(f"som is --< {som}")
+        print(f"{num1} + {num2} = {som}")
 
     elif code=='sup':
         n1 = int(input("Enter a value --< "))
         n2 = int(input("Enter a value --< "))
         som = n1-n2
-        print(f"som is --< {som}")
+        print(f"{num1} - {num2} = {som}")
 
     elif code=='multi':
         n1 = int(input("Enter a value --< "))
         n2 = int(input("Enter a value --< "))
         som = n1*n2
-        print(f"som is --< {som}")
+        print(f"{num1} x {num2} = {som}")
 
     elif code=='div':
         n1 = int(input("Enter a value --< "))
         n2 = int(input("Enter a value --< "))
         som = n1/n2
-        print(f"som is --< {som}")
+        print(f"{num1} % {num2} = {som}")
 
     elif code=='sqrt':
         n1 = int(input("Enter a value --< "))
@@ -71,13 +71,14 @@ for i in range(1,100000000):
         
     elif code=='cmatrix':
         os.system('apt-get install cmatrix -y')
+        os.system('clear')
         os.system('cmatrix')
         
     elif code=='name':
         uname = input('change your name --£ ')
               
     else :
-        print("commad is not working !!!")
+        print("commad is not added !!!")
 
         
 
